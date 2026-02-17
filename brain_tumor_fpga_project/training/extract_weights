@@ -1,0 +1,18 @@
+import numpy as np
+from tensorflow.keras.models import load_model
+
+model = load_model(r"C:\Users\Dell\Desktop\brain_tumor_fpga_project\models\brain_tumor_lightweight.h5")
+
+weights = model.get_weights()
+
+# Convert list to numpy object array
+weights_object_array = np.array(weights, dtype=object)
+
+# Save
+np.save(
+    r"C:\Users\Dell\Desktop\brain_tumor_fpga_project\models\model_weights.npy",
+    weights_object_array,
+    allow_pickle=True
+)
+
+print("Weights extracted and saved successfully!")

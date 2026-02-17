@@ -1,0 +1,5 @@
+conv2d_accel_mul_bkb
+conv2d_accel_mac_cud
+conv2d_accel_control_s_axi
+conv2d_accel_gmem_m_axi
+conv2d_accel

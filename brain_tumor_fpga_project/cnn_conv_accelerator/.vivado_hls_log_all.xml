@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="ERROR: [IMPL 213-28] Failed to generate IP.&#xD;&#xA;command 'ap_source' returned error code&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/Dell/Desktop/brain_tumor_fpga_project/cnn_conv_accelerator/solution1/export.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/Dell/Desktop/brain_tumor_fpga_project/cnn_conv_accelerator/solution1/export.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="cnn_conv_accelerator" solutionName="solution1" date="2026-02-17T23:18:55.674+0530"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 54, distance = 1, offset = 1)&#xD;&#xA;   between bus request on port 'gmem' (conv_accel.cpp:58) and bus request on port 'gmem' (conv_accel.cpp:50)." projectName="cnn_conv_accelerator" solutionName="solution1" date="2026-02-17T23:15:09.212+0530" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 52, distance = 1, offset = 1)&#xD;&#xA;   between bus request on port 'gmem' (conv_accel.cpp:58) and bus request on port 'gmem' (conv_accel.cpp:50)." projectName="cnn_conv_accelerator" solutionName="solution1" date="2026-02-17T23:15:09.177+0530" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 36, distance = 1, offset = 1)&#xD;&#xA;   between bus request on port 'gmem' (conv_accel.cpp:58) and bus request on port 'gmem' (conv_accel.cpp:50)." projectName="cnn_conv_accelerator" solutionName="solution1" date="2026-02-17T23:15:09.122+0530" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 5, distance = 1, offset = 1)&#xD;&#xA;   between bus request on port 'gmem' (conv_accel.cpp:58) and bus request on port 'gmem' (conv_accel.cpp:50)." projectName="cnn_conv_accelerator" solutionName="solution1" date="2026-02-17T23:15:09.105+0530" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1)&#xD;&#xA;   between bus request on port 'gmem' (conv_accel.cpp:58) and bus request on port 'gmem' (conv_accel.cpp:50)." projectName="cnn_conv_accelerator" solutionName="solution1" date="2026-02-17T23:15:09.042+0530" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1)&#xD;&#xA;   between bus request on port 'gmem' (conv_accel.cpp:58) and bus request on port 'gmem' (conv_accel.cpp:50)." projectName="cnn_conv_accelerator" solutionName="solution1" date="2026-02-17T23:15:09.024+0530" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1)&#xD;&#xA;   between bus request on port 'gmem' (conv_accel.cpp:58) and bus request on port 'gmem' (conv_accel.cpp:50)." projectName="cnn_conv_accelerator" solutionName="solution1" date="2026-02-17T23:15:08.994+0530" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
